@@ -1,0 +1,138 @@
+/* General rulles */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 400;
+	color: #000000;
+}
+body {
+	position: relative;
+	background-image: url("../Files/3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ul, nav, li {
+	list-style: none;
+}
+li {
+	color: white;
+}
+a {
+	text-decoration: none;
+	opacity: 0.75;
+	color: #ffffff;
+}
+a:hover {
+	opacity: 1;
+}
+a:btn {
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-weight: 400;
+	text-align: center;
+	opacity: 1;
+}
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 80px;
+}
+section p {
+	font-size: 25px;
+	line-height: 27px;
+	max-width: 775px;
+	padding: 10px 20px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.SC2,
+header {
+	animation: 1s fadein 0.5s forwards;
+	opacity: 0;
+}
+@keyframes fadein {
+	100% {
+		opacity: 1;
+	}
+}
+
+/* Header rulles */
+
+header {
+	color: #ffffff;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 35px 100px 0;
+	font-family: "Source Sans Pro", sans-serif;
+}
+nav {
+	font-weight: 600;
+}
+
+/* SC2 rulles */
+
+.SC2 h1 {
+	font-size: 90px;
+	font-weight: 400;
+	margin-top: 220px;
+	margin-left: 45px;
+	font-family: "Black Ops One", cursive;
+	color: #ffffff;
+	text-shadow: 5px 5px 2px #000000;
+	word-spacing: 1.2em;
+}
+.SC2 h3 {
+	font-size: 45px;
+	font-weight: 400;
+	margin-top: 80px;
+	margin-left: 30px;
+	font-family: "Nothing You Could Do", cursive;
+	color: #ffffff;
+	text-shadow: 2px 4px 2px #000000;
+}
+@media (max-width: 800px) {
+	.SC2 {
+		min-height: 600px;
+	}
+	.SC2 h1 {
+		font-size: 48px;
+	}
+	.SC2 h3 {
+		font-size: 24px;
+	}
+}
+
+/* Others */
+
+header nav {
+	display: flex;
+	margin-right: -15px;
+}
+header nav li {
+	margin: 20px 15px;
+}
+@media (max-width: 800px) {
+	header {
+		padding: 20px 50px;
+		flex-direction: column;
+	}
+	header h2 {
+		margin-bottom: 15px;
+	}
+}
+#SC2b {
+	display: none;
+	position: relative;
+	background-image: url("2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}

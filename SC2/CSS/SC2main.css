@@ -1,0 +1,187 @@
+/* General rulles */
+body {
+    background-image: none;
+    background-image: url("../Files/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+p, h2 {
+    color: white;
+}
+hr {
+    width: 100%;
+    height: 1px;
+    border: 0;
+}
+#terran, #zerg, #protoss {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1700px;
+}
+/* Header rulles */
+.SC2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../Files/11.jpg');
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+    height: 650px;
+}
+.SC2logo {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../Files/SC2.png');
+    width: 680px;
+    height: 419px;
+}
+/* Race selection section */
+.raceHeader {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Black Ops One', cursive;  
+    text-shadow: 5px 5px 2px #3d3d3d;
+    margin: 150px 0px 0px 30%;
+    position: absolute;
+}
+.raceButtom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 90px;
+    width: 700px;
+    height: auto;
+    margin: 155px 0px 0px 30%;
+    position: absolute;
+}
+.raceButtom button {
+    border-radius: 20px 20px; 
+    box-shadow: inset 0 0 50px #A6A6A6; 
+    background-color: transparent;
+    width: 200px;
+    height: 55px;  
+    opacity: 0.5; 
+}
+
+/* List rulles */
+.listWrapper {
+    width: 100%;
+    height: 1700px; 
+    padding-top: 400px;    
+}
+.titleWrapper {
+    margin-bottom: 100px;
+    margin-left: 150px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 45px;
+}
+.video {
+    display: block; 
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 10px #3c8ebe; 
+    border-radius: 20px;
+    opacity: 0.50;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 50%;
+    
+}
+.video div p {
+    text-align: center;
+    font-size: 40px;
+}
+.buttont, .buttonz, .buttonp {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-left: 17.5%;
+    margin-top: 1%;
+}
+#zerg .listWrapper {
+    padding-top: 400px;
+}
+#protoss .listWrapper {
+    padding-top: 400px;
+}
+/* Terrans */
+#terran {
+    background-image: url('../Files/tt.jpg');
+}
+.buttont {
+    background-image: url('../Files/bt.png');
+}
+/* Zerg */
+#zerg {
+    background-image: url('../Files/zz.jpg');
+}
+#zerg .listWrapper .video {
+    box-shadow: 10px 10px 10px #c85aef;
+}
+.buttonz {
+    background-image: url('../Files/bz.png');
+}
+/* Protoss */
+#protoss {
+    background-image: url('../Files/pp.jpg');
+}
+.buttonp {
+    background-image: url('../Files/bp.png');
+}
+#protoss .listWrapper .video {
+    box-shadow: 10px 10px 10px #f1bf7a;
+}
+/* Footer rulles */
+footer {
+    background-color: black;
+    width: 100%;
+    height: 419px;
+    display: flex;
+    align-items: center;
+	justify-content: space-around;
+}
+footer ul {
+    display: flex;
+    
+}
+
+footer ul li {
+    margin-left: 16px;
+   
+}
+
+footer p {
+	text-transform: uppercase;
+	font-size: 14px;
+	opacity: 0.6;
+    align-self: center;
+    color: white;
+}
+@media (max-width:1100px) {
+    footer {
+        flex-direction: column;
+    }
+    footer p {
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+    footer ul li {
+        margin: 0 8px;
+    }
+
+}
+.footerLogo {
+    background-image: url('../Files/SC2.png');
+    width: 680px;
+    height: 419px;
+}
+
+
+
+
